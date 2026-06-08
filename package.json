@@ -1,0 +1,21 @@
+{
+  "name": "foundry-chatbot",
+  "version": "1.0.0",
+  "description": "Microsoft Foundry Agent Chatbot",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ai-projects": "^2.2.0",
+    "@azure/identity": "^4.13.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
